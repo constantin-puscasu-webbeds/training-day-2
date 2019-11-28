@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using TrainingDay2.HotelApp;
+using TrainingDay2.CarStore;
 
 
 namespace TrainingDay2
@@ -70,6 +71,10 @@ namespace TrainingDay2
                 Console.WriteLine("Error: {0}", outOfRange.Message);
             }
 
+
+            // Execute car store application
+            Console.WriteLine("=====================================================================================");
+            CarStoreApplication.Run();
 
 
 
